@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sport Agenda</title>
+    <link rel="stylesheet" href="reserva.css">
+</head>
+<body>
+
+    <h1>Sport Agenda</h1>
+
+    <nav>
+        <a href="project final.html">Inicio</a>
+        <a href="login.html">Ingresar</a>
+        <a href="complejos.html">Complejos</a>
+        <a href="reserva.html">Reservar</a>
+    </nav>
+
+    <h2>Reserva de Cancha</h2>
+
+    <button onclick="mostrarReserva()">
+        Reservar
+    </button>
+
+    <div id="reserva" style="display:none;">
+
+        <p>Nombre:</p>
+        <input type="text">
+
+        <p>Complejo:</p>
+        <select>
+            <option>La 10</option>
+            <option>Don Bosco</option>
+            <option>Planeta Fútbol</option>
+        </select>
+
+        <p>Día:</p>
+        <input type="text" placeholder="Ej: 15/09">
+
+        <br><br>
+
+        <button>Confirmar</button>
+
+    </div>
+
+    <footer>
+        <p>2026 - Sport Agenda</p>
+    </footer>
+
+    <script>
+        function mostrarReserva() {
+            document.getElementById("reserva").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>

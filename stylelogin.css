@@ -1,0 +1,105 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background:#2B2B2B;
+    color:white;
+}
+
+
+header{
+    background:#093D77;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    margin-bottom:15px;
+}
+
+/* Navigation menu */
+nav{
+    text-align:center;
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#DAA520;
+}
+
+/* Login box */
+div{
+    width:350px;
+    margin:60px auto;
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:10px;
+}
+
+div h2{
+    text-align:center;
+    color:#093D77;
+    margin-bottom:20px;
+}
+
+/* Form */
+label{
+    font-weight:bold;
+}
+
+input[type="text"],
+input[type="password"]{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #3A7CA5;
+    border-radius:5px;
+}
+
+/* Button */
+#butonlog{
+    width:100%;
+    padding:10px;
+    background:#DAA520;
+    color:black;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+#butonlog:hover{
+    background:#093D77;
+    color:white;
+}
+
+/* Registration link */
+p{
+    text-align:center;
+    margin-top:15px;
+}
+
+p a{
+    color:#093D77;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+p a:hover{
+    color:#DAA520;
+}
